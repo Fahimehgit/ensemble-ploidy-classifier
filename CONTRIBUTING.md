@@ -1,7 +1,5 @@
 # Contributing to Ensemble Ploidy Classifier
 
-Thank you for your interest in contributing to the Ensemble Ploidy Classifier! This document provides guidelines for contributing to this project.
-
 ## Getting Started
 
 ### Prerequisites
