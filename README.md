@@ -170,31 +170,6 @@ training_config = TrainingConfig(
 )
 ```
 
-## Key Features
-
-### 1. Dynamic Architecture
-- Configurable number of convolutional layers
-- Flexible activation functions (ReLU, LeakyReLU, ELU)
-- Adjustable pooling strategies (Max, Average)
-- Customizable fully connected layers
-
-### 2. Ensemble Learning
-- Multiple probe models capture different data aspects
-- Learnable aggregation weights via softmax
-- End-to-end training of the entire ensemble
-
-### 3. Professional Features
-- Comprehensive logging and monitoring
-- Hyperparameter optimization with Optuna
-- Model checkpointing and early stopping
-- Extensive testing and validation
-- Type hints and documentation
-
-### 4. Performance Optimization
-- GPU acceleration support
-- Memory-efficient training
-- Batch processing capabilities
-- Parallel data loading
 
 ## Data Integrity & Methodology
 
@@ -208,10 +183,6 @@ This package implements a **fixed indices approach** to ensure consistent, leak-
 3. **Test Set** (33 fixed samples): Consistent test evaluation across all models
 4. **True Validation Set** (33 fixed samples): Additional validation samples
 
-#### Why This Matters
-- **Zero Data Leakage**: Same samples always in same splits across all 867 probe models + Prevents accidental data contamination
-- **Fair Comparison**: All models evaluated on identical test samples
-- **Reproducible Results**: Fixed indices ensure consistent evaluation
 
 #### Using Fixed Indices
 ```python
