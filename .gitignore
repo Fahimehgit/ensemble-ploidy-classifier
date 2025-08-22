@@ -182,4 +182,4 @@ mlruns/
 # Temporary files
 *.tmp
 *.temp
-.empty/ 
+.empty/ organized_project/embeddings/ReducedEmbeddings1/

@@ -10,7 +10,7 @@ __email__ = "fahimeh.rahimi@ufl.edu"
 
 # Core imports with error handling
 try:
-    from .ensemble_classifier import EnsemblePloidyClassifier
+from .ensemble_classifier import EnsemblePloidyClassifier
 except ImportError as e:
     print(f"Warning: Could not import EnsemblePloidyClassifier: {e}")
     EnsemblePloidyClassifier = None
@@ -32,7 +32,7 @@ except ImportError as e:
     ModelConfig = TrainingConfig = None
 
 try:
-    from .utils.model_loader import PretrainedModelLoader, load_best_ploidy_model
+from .utils.model_loader import PretrainedModelLoader, load_best_ploidy_model
 except ImportError as e:
     print(f"Warning: Could not import model loader: {e}")
     PretrainedModelLoader = load_best_ploidy_model = None
